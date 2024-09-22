@@ -84,18 +84,22 @@ select{
     display:none
 }
 
-.download-btn{
-    background-color: #1E90FF;
-    border:0px;
-    border-radius: 20px;
-    padding:10px;
-    font-size: 15px;
-    color: #E0E0E0; 
-    text-decoration:none;
-    display: block;
-    margin-top: 10px;
-    text-align: center;
-    width:5rem;
+
+.download-btn {
+    display: flex;
+    justify-content: center; 
+    text-decoration: none;
+    padding: 10px 20px; 
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px; 
+    font-size: 20px;
+    transition: background-color 0.3s;
+    margin-top:15px;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
 }
 
 .audio-recorder{
